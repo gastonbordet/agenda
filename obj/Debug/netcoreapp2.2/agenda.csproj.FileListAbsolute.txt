@@ -1,0 +1,11 @@
+C:\Users\gastonb\Proyects\agenda\bin\Debug\netcoreapp2.2\agenda.deps.json
+C:\Users\gastonb\Proyects\agenda\bin\Debug\netcoreapp2.2\agenda.runtimeconfig.json
+C:\Users\gastonb\Proyects\agenda\bin\Debug\netcoreapp2.2\agenda.runtimeconfig.dev.json
+C:\Users\gastonb\Proyects\agenda\bin\Debug\netcoreapp2.2\agenda.dll
+C:\Users\gastonb\Proyects\agenda\bin\Debug\netcoreapp2.2\agenda.pdb
+C:\Users\gastonb\Proyects\agenda\obj\Debug\netcoreapp2.2\agenda.csprojAssemblyReference.cache
+C:\Users\gastonb\Proyects\agenda\obj\Debug\netcoreapp2.2\agenda.csproj.CoreCompileInputs.cache
+C:\Users\gastonb\Proyects\agenda\obj\Debug\netcoreapp2.2\agenda.AssemblyInfoInputs.cache
+C:\Users\gastonb\Proyects\agenda\obj\Debug\netcoreapp2.2\agenda.AssemblyInfo.cs
+C:\Users\gastonb\Proyects\agenda\obj\Debug\netcoreapp2.2\agenda.dll
+C:\Users\gastonb\Proyects\agenda\obj\Debug\netcoreapp2.2\agenda.pdb
