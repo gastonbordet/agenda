@@ -25,6 +25,7 @@ namespace agenda
             if (!(agenda.ContainsKey(entrada[0]))) /// Si la agenda no contiene esa nombre
             {
                 agenda.Add(entrada[0], int.Parse(entrada[1]));
+                Console.WriteLine("La entrada fue guardada exitosamente");
             }
         }
 
@@ -33,6 +34,7 @@ namespace agenda
             if(!(agenda.ContainsKey(nombre))) // Si la agenda no contiene ese nombre
             {
                 agenda.Add(nombre, telefono);
+                EscribirArchivo();
             }
 
             else 
@@ -47,9 +49,13 @@ namespace agenda
             {
                 Console.WriteLine("La agenda esta vacia");
             }
-            foreach(string key in agenda.Keys)
+
+            else 
             {
-                Console.WriteLine(key + ": " + agenda[key]); 
+                foreach(string key in agenda.Keys)
+                {
+                    Console.WriteLine(key + ": " + agenda[key]); 
+                }
             }
         }
 
@@ -85,6 +91,25 @@ namespace agenda
             }
 
             File.WriteAllLines(path, datosAgenda);
+        }
+
+        public void ModificarEntrada(string nombre, int nuevoTelefono) 
+        {
+            // 1. Tomar datos y guardarlos en el diccionario
+            agenda[nombre] = nuevoTelefono;
+
+            // 2. Escribir archivo con el nuevo diccionario
+            EscribirArchivo();
+        }
+
+        public void BorrarEntradaDiccionario(string nombre) 
+        {
+            agenda.Remove(nombre);
+        }
+
+        public bool ExisteNombre(string nombre) 
+        {
+            return agenda.ContainsKey(nombre);
         }
     }
 }

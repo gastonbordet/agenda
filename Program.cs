@@ -9,13 +9,6 @@ namespace agenda
     {
         static void Main(string[] args)
         {
-            //Agenda agenda = new Agenda();
-            //agenda.EscribirArchivo();
-            //agenda.LeerArchivo();
-            //agenda.GuardarEnDiccinario("pedro", 33333);
-            //agenda.EscribirArchivo();
-            //agenda.LeerArchivo();
-
             ControlConsola consola = new ControlConsola();
             consola.IniciarConsola();
         }
