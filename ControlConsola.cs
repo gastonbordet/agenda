@@ -51,7 +51,9 @@ namespace agenda
                     case "borrar":
                         BorrarDatos();
                         break;
+
                     default:
+                        Console.WriteLine("Ingrese un comando valido");
                         break;
                 }
             }
